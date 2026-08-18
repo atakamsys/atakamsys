@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atakam | Integración de Tecnología y Servicios TI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-900">
+
+    <!-- Navegación -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-blue-700">ATAKAM</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-blue-700 font-medium">Soluciones</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700 font-medium">Servicios</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700 font-medium">Partners</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700 font-medium">Nosotros</a>
+                </div>
+                <div>
+                    <a href="#contacto" class="bg-blue-700 text-white px-5 py-2 rounded-lg hover:bg-blue-800 transition">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Integración Tecnológica <br><span class="text-blue-400">Sin Fronteras</span></h1>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">En Atakam diseñamos y ejecutamos infraestructuras TI de alto rendimiento para impulsar la competitividad de su empresa.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#soluciones" class="bg-blue-600 hover:bg-blue-500 px-8 py-3 rounded-md font-semibold transition">Nuestras Soluciones</a>
+                <a href="#servicios" class="border border-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-md font-semibold transition">Servicios Integrales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones Destacadas -->
+    <section id="soluciones" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-800">Soluciones que Transforman</h2>
+                <div class="h-1 w-20 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-4xl mb-4">🛡️</div>
+                    <h3 class="text-xl font-bold mb-3">Ciberseguridad</h3>
+                    <p class="text-gray-600">Protección de activos críticos y continuidad de negocio mediante perímetros inteligentes.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-4xl mb-4">☁️</div>
+                    <h3 class="text-xl font-bold mb-3">Cloud Híbrida</h3>
+                    <p class="text-gray-600">Migración y gestión de infraestructuras en nubes públicas, privadas o esquemas híbridos.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-blue-600 text-4xl mb-4">🌐</div>
+                    <h3 class="text-xl font-bold mb-3">Networking & WiFi</h3>
+                    <p class="text-gray-600">Diseño de redes corporativas escalables, conectividad inalámbrica y SD-WAN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="bg-slate-100 py-20">
+        <div class="max-w-3xl mx-auto px-4 bg-white p-10 rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-bold mb-6 text-center">Inicie su proyecto con Atakam</h2>
+            <form action="#" class="space-y-4">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Nombre completo" class="w-full p-3 border rounded-lg focus:outline-blue-600">
+                    <input type="email" placeholder="Correo corporativo" class="w-full p-3 border rounded-lg focus:outline-blue-600">
+                </div>
+                <input type="text" placeholder="Empresa" class="w-full p-3 border rounded-lg focus:outline-blue-600">
+                <textarea placeholder="¿En qué podemos ayudarle?" rows="4" class="w-full p-3 border rounded-lg focus:outline-blue-600"></textarea>
+                <button class="w-full bg-blue-700 text-white font-bold py-4 rounded-lg hover:bg-blue-800 uppercase tracking-wide">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-gray-400 py-10 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <span class="text-2xl font-bold text-white">ATAKAM.CL</span>
+                <p class="text-sm mt-2">Integración de Tecnología y Servicios TI - Chile.</p>
+            </div>
+            <div class="flex space-x-6 text-sm">
+                <p>📍 Santiago - Antofagasta / Chile</p>
+                <p>✉️ contacto@atakam.cl</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
